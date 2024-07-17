@@ -9,7 +9,7 @@ import Button from '../../components/Button';
 export default function TaskCreation() {
   return (
     <Container>
-        <StatusBar backgroundColor={theme.colors.primary} />
+        <StatusBar barStyle='light-content' backgroundColor={theme.colors.primary} />
         
         <Title>Cadastro de Tarefa</Title>
         <Input placeholder="Titulo" />
