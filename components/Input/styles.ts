@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { theme } from "../../global/styles/theme";
 
 export const InputField = styled.TextInput`
   width: 100%;
@@ -7,5 +8,5 @@ export const InputField = styled.TextInput`
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: ${({ theme }) => theme.colors.background};
+  background-color: ${theme.colors.background};
 `;

@@ -6,7 +6,7 @@ export const StyledCheckbox = styled(Checkbox)`
     margin-right: 10px;
     `
 
-export const Container = styled.View<{isChecked: boolean}>`
+export const Container = styled.View<{ isChecked: boolean }>`
   flex-direction: row;
   align-items: center;
   padding: 16px 24px;
@@ -23,7 +23,7 @@ export const Text = styled.Text`
   font-size: 16;
 `
 
-export const TaskText = styled.Text<{isChecked: boolean}>`
+export const TaskText = styled.Text<{ isChecked: boolean }>`
   flex: 1;
   font-size: 16px;
   ${({ isChecked }) => isChecked && `
