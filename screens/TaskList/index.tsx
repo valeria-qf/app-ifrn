@@ -10,7 +10,7 @@ import {
 
 } from './styles';
 
-import {       Container } from '../TaskCreation/styles';
+import { Container } from '../TaskCreation/styles';
 export default function TaskList() {
   return (
     <Container>
@@ -28,4 +28,3 @@ export default function TaskList() {
     </Container>
   );
 };
-  
